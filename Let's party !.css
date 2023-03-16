@@ -1,0 +1,107 @@
+body{
+  font-family: "Tw Cen MT", sans-serif;
+  margin-top: 50px;
+}
+#container{
+  width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  text-align: right;
+  border-bottom: solid medium #A00;
+}
+
+nav{
+  width: 10em;
+  float: left;
+
+}
+
+main{
+  margin-left: 10em;
+  background-color: #CCC;
+  padding: 1em;
+  border-bottom: solid medium #A00;
+}
+
+footer{
+  padding: 3px 30px;
+  background-image: url(imgs/musterkl.png);
+  color: white;
+  float: right;
+}
+
+strong{
+  color: #A00;
+}
+
+h1{
+  color: #A00;
+}
+
+h2{
+  color: #A00;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav a{
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  border-right: 1em solid #A00;
+  display:block;
+  padding: 0.5em;
+  padding-left: 1.5em;
+  margin-right: 1em;
+  color: #A00;
+}
+
+nav #actual a{
+  background-color: #CCC;
+  background-image: url(imgs/pfeil.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  border-right-color: #FFF;
+}
+
+nav a:hover{
+  color: #FFF;
+  background-color: #A00;
+  border-right-color: #FFF;
+}
+
+.finish { 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.line { 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.ende { 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
